@@ -1,0 +1,80 @@
+/* Modern Dark Background */
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: #0d1117; /* If loaded "image" don't work */
+    background-image: radial-gradient(circle at top right, #1f2d3d, #0d1117);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card Design */
+.card {
+    background: rgba(22, 27, 34, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    width: 340px;
+    padding: 35px 25px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* The Profile Image with a Neon Glow */
+.profile-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #58a6ff; /* Blue accent */
+    box-shadow: 0 0 15px rgba(88, 166, 255, 0.3);
+}
+
+/* Typography styling */
+.name {
+    font-size: 26px;
+    color: #f0f6fc;
+    font-weight: 700;
+    margin: 20px 0 5px 0;
+    letter-spacing: -0.5px;
+}
+
+.title {
+    font-size: 13px;
+    color: #58a6ff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+.bio {
+    font-size: 14px;
+    color: #8b949e; /* Muted text for readability */
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* A Custom Animated Button with a Neon Glow */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(135deg, #2188ff, #1f6feb);
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(33, 136, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+/* Button Hover State */
+.btn:hover {
+    transform: translateY(-2px); /* Subtle lift */
+    box-shadow: 0 6px 20px rgba(33, 136, 255, 0.5);
+    background: linear-gradient(135deg, #388bfd, #2188ff);
+}
