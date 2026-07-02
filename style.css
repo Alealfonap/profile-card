@@ -9,7 +9,9 @@ body {
     align-items: center;
     height: 100vh;
 }
-
+a{
+    text-decoration: none;
+}
 /* Card Design */
 .card {
     background: rgba(22, 27, 34, 0.8);
@@ -48,7 +50,15 @@ body {
     font-weight: 600;
     letter-spacing: 1.5px;
     margin-bottom: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
+
+.title:hover {
+    color:#a1c9f7;
+    transform: translateY(-2px); /* Small lift */
+}
+
 
 .bio {
     font-size: 14px;
@@ -64,6 +74,7 @@ body {
     background: linear-gradient(135deg, #2188ff, #1f6feb);
     color: #ffffff;
     padding: 12px 30px;
+    margin-bottom: 15px;
     border-radius: 30px;
     width:60%;
     margin:auto;
