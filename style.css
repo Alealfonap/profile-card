@@ -59,15 +59,12 @@ body {
 
 /* A Custom Animated Button with a Neon Glow */
 .btn {
-    display: block;
+    display: inline-block;
     text-decoration: none;
     background: linear-gradient(135deg, #2188ff, #1f6feb);
     color: #ffffff;
     padding: 12px 30px;
     border-radius: 30px;
-    width:60%;
-    margin:auto;
-    margin-bottom: 30px;
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 0.5px;
@@ -77,33 +74,6 @@ body {
 
 /* Button Hover State */
 .btn:hover {
-    transform: translateY(-2px); /* Subtle lift */
-    box-shadow: 0 6px 20px rgba(33, 136, 255, 0.5);
-    background: linear-gradient(135deg, #388bfd, #2188ff);
-}
-
-
-
-/* A Custom Animated Sub Button with a Neon Glow */
-.btn2 {
-    display: block;
-    text-decoration: none;
-    background: linear-gradient(135deg, #2188ff, #1f6feb);
-    color: #ffffff;
-    padding: 6px 15px;
-    border-radius: 20px;
-    width: 40%;
-    margin:auto;
-    /*margin-bottom: 30px;*/
-    font-weight: 600;
-    font-size: 12px;
-    letter-spacing: 0.5px;
-    box-shadow: 0 4px 15px rgba(33, 136, 255, 0.3);
-    transition: all 0.3s ease;
-}
-
-/* Button Hover State */
-.btn2:hover {
     transform: translateY(-2px); /* Subtle lift */
     box-shadow: 0 6px 20px rgba(33, 136, 255, 0.5);
     background: linear-gradient(135deg, #388bfd, #2188ff);
